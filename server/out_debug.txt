@@ -1,0 +1,70 @@
+﻿node : D:\farmer 
+project (elite)\server\
+node_modules\express\li
+b\router\route.js:216
+At line:1 char:1
++ node server.js *>&1 
+| Out-File -FilePath 
+out_debug.txt 
+-Encoding utf8 ...
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (D:\farmer pro   
+ je...er\route.js:2    
+16:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+        throw new 
+Error(msg);
+        ^
+
+Error: Route.post() 
+requires a callback 
+function but got a 
+[object Object]
+    at 
+Route.<computed> [as 
+post] (D:\farmer 
+project (elite)\server\
+node_modules\express\li
+b\router\route.js:216:1
+5)
+    at 
+proto.<computed> [as 
+post] (D:\farmer 
+project (elite)\server\
+node_modules\express\li
+b\router\index.js:521:1
+9)
+    at 
+Object.<anonymous> 
+(D:\farmer project (eli
+te)\server\routes\ai.js
+:9:8)
+    at Module._compile 
+(node:internal/modules/
+cjs/loader:1803:14)
+    at Object..js (node
+:internal/modules/cjs/l
+oader:1934:10)
+    at Module.load (nod
+e:internal/modules/cjs/
+loader:1524:32)
+    at Module._load (no
+de:internal/modules/cjs
+/loader:1326:12)
+    at TracingChannel.t
+raceSync (node:diagnost
+ics_channel:328:14)
+    at wrapModuleLoad (
+node:internal/modules/c
+js/loader:245:24)
+    at Module.require (
+node:internal/modules/c
+js/loader:1547:12)
+
+Node.js v25.4.0
